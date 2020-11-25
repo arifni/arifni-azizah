@@ -1,0 +1,327 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+header{
+    background-color: #191A1A;
+    color: white;
+    padding: 10px;
+    height: 10vh;
+}
+
+header .logo{
+    font-family: 'Teko', sans-serif;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+header .nav{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    padding-bottom: -20px;
+    margin-top: -60px;
+}
+
+ul li{
+    display: inline-block;
+    float: right;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+ul li a:hover{
+    padding: 10px 20px;
+    background-color:  rgb(218, 231, 255);
+    color: black;
+
+}
+
+.active{
+    margin-left: -15px;
+    border-radius: 20px;
+}
+/* tutup header */
+
+/* main */
+.satu{
+    background: url(junior.jpg);
+    background-size: cover;
+    max-width: 1349px;
+    height: 700px;
+    color: white;
+}
+
+.welcome h2{
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin-left: 530px;
+    padding-top: 150px;
+    font-size: 40px;
+}
+
+.junior h1{
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin-left: 400px;
+    font-size: 90px;
+}
+
+.isi p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+
+.gs2 a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    padding: 10px 40px;
+    font-size: 25px;
+    margin-left: 560px;
+    border-radius: 30px;
+}
+.gs2 :hover{
+    background-color:  rgb(218, 231, 255);
+    padding: 10px 40px;
+    color: rgb(14, 2, 53);
+}
+
+.container{
+    font-size: 18px;
+    margin-top: 60px;
+    margin-right: 0px;
+    text-align: center;
+}
+
+.container ul li{
+    margin-right: 70px;
+}
+
+.tiga{
+    position: absolute;
+    text-align: center;
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    padding: 60px 20px;
+    width: 1309px;
+}
+
+.tiga h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.tiga p{
+    font-size: 20px;
+}
+
+.empat {
+    position: relative;
+    margin-top: 400px;
+    display: inline-block;
+}
+
+.empat h2{
+    margin-left: 450px;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-right: 420px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.empat ul li{
+    display: inline-block;
+    max-width: 900px;
+    float: left;
+    padding-left: 150px;
+}
+
+.empat ul li img{
+    max-width: 420px;
+}
+
+.btn a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 40px;
+    border-radius: 20px;
+    margin-left: 570px;
+    margin-right: 400px;
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.btn a:hover{
+    background-color: rgb(218, 231, 255);
+    color: black;
+}
+
+.btn h2{
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 2px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+/* tutup main */
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 55px;
+}
+
+footer p{
+    padding-bottom: 20px;
+
+}
+/* tutup footer */
+
+
+/* Tablet */
+@media screen and (max-width: 768px){
+    .satu .welcome h2{
+        margin-left: 220px;
+        font-size: 30px;
+    }
+
+    .junior h1{
+        font-size: 70px;
+        margin-left: 110px;
+    }
+
+    .gs2 a{
+        margin-left: 230px;
+    }
+
+    .container ul li{
+        font-size: 18px;
+        margin-right: 65px;
+    }
+    
+    .tiga{
+        width: auto;
+        padding: 13px;
+    }
+
+    .tiga h3{
+        font-size: 35px;
+    }
+    
+    .empat h2{
+        margin-left: 250px;
+        margin-right: 300px;
+        font-size: 35px;
+    }
+
+    .empat ul li{
+        padding-left: 120px;
+    }
+
+    .btn h2{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .btn a{
+        margin-left: 225px;
+        margin-right: 200px;
+    }
+}
+/* tutup tablet */
+
+
+/* hp */
+@media screen and (max-width: 576px){
+    ul li{
+        padding: 25px 10px;
+    }
+
+    .nav ul li a{
+        padding: 10px 15px;
+    }
+
+    header .logo{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .satu .welcome h2{
+        margin-left: 180px;
+        font-size: 20px;
+    }
+
+    .satu .junior h1{
+        font-size: 50px;
+        margin-left: 90px;
+    }
+
+    .isi p{
+        font-size: 17px;
+    }
+    
+    .gs2 a{
+        font-size: 20px;
+        margin-left: 150px;
+    }
+
+    .container ul li{
+        font-size: 15px;
+        margin: 0px 150px;
+    }
+
+    .empat h2{
+        margin-left: 90px;
+        margin-right: 140px;
+        font-size: 25px;
+    }
+
+    .empat ul li{
+        padding-left: 35px;
+    }
+
+    .btn h2{
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 30px;
+    }
+
+    .btn a{
+        margin-left: 130px;
+        margin-right: 100px;
+    }
+/* tutup hp */

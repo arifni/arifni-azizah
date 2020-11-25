@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    height: 10vh;
+}
+
+header .logo h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    padding-left: 30px;
+    font-size: 50px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    max-width: auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+}
+
+main .judul h2{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+main .form{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+main .form p{
+    margin: 10px 0px;
+}
+
+input,textarea{
+    padding: 5px 20px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+    height: 20px;
+}
+
+.send  {
+    margin-left: 225px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.send a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 8px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+
+}
+
+.send a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
